@@ -1,6 +1,7 @@
 from peewee import SqliteDatabase
 
-database = SqliteDatabase('database-v5.db')
+database = SqliteDatabase('database.db')
+
 
 def startup_db():
     database.connect()
@@ -13,13 +14,16 @@ def startup_db():
     from models.unidade_consumidora import UnidadeConsumidoraDB
 
     database.create_tables(
-        [UnidadeConsumidoraDB,
-         BandeiraDB,
-         DependenciaDB,
-         DispositivoDB,
-         TipoConsumidorDB,
-         TipoDispositivoDB]
+        [
+            UnidadeConsumidoraDB,
+            BandeiraDB,
+            DependenciaDB,
+            DispositivoDB,
+            TipoConsumidorDB,
+            TipoDispositivoDB,
+        ]
     )
+
 
 def shutdown_db():
     database.close()
