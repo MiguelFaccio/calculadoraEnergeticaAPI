@@ -4,34 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2eedca9-8afd-4af7-952d-46455cf30a1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/routers/consumo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/consumo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/consumo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/enums.py" afterDir="false" />
+    <list default="true" id="f2eedca9-8afd-4af7-952d-46455cf30a1a" name="Changes" comment="second commit">
+      <change beforePath="$PROJECT_DIR$/.idea/calculadoraConsumoEletrico.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/calculadoraConsumoEletrico.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculo.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database-v5.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/bandeira.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/bandeira.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dependencia.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/dependencia.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dispositivo.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/dispositivo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/tipo_consumidor.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/tipo_consumidor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/tipo_dispositivo.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/tipo_dispositivo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/unidade_consumidora.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/unidade_consumidora.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/bandeira.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/bandeira.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/dependencia.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/dependencia.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/dispositivo.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/dispositivo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/tipo_consumidor.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/tipo_consumidor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/tipo_dispositivo.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/tipo_dispositivo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/unidade_consumidora.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/unidade_consumidora.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/bandeira.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/bandeira.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/dependencia.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/dependencia.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/dispositivos.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/dispositivos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/tipo_consumidor.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/tipo_consumidor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/tipo_dispositivo.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/tipo_dispositivo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/unidade_consumidora.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/unidade_consumidora.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/consumo.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/consumo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/consumo.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/consumo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +32,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MiguelFaccio&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MiguelFaccio/calculadoraEnergeticaAPI.git&quot;,
+    &quot;accountId&quot;: &quot;df80133c-b2f9-495b-830e-6b680b439f4f&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -59,20 +53,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;FastAPI.calculadoraConsumoEletrico.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/45745953888/PycharmProjects/calculadoraConsumoEletrico&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "FastAPI.calculadoraConsumoEletrico.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/45745953888/PycharmProjects/leitor",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\45745953888\PycharmProjects\calculadoraConsumoEletrico\schemas" />
@@ -121,14 +115,33 @@
       <workItem from="1725445681754" duration="6411000" />
       <workItem from="1725454746062" duration="4430000" />
       <workItem from="1725464746890" duration="5683000" />
-      <workItem from="1725619705187" duration="7655000" />
+      <workItem from="1725619705187" duration="13731000" />
+      <workItem from="1725641429079" duration="4281000" />
+      <workItem from="1726067653566" duration="1190000" />
+      <workItem from="1726070590586" duration="5375000" />
+      <workItem from="1726252207264" duration="818000" />
+      <workItem from="1726664344353" duration="193000" />
+      <workItem from="1726664678339" duration="4608000" />
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <option name="closed" value="true" />
+      <created>1725630970696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725630970696</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/calculadoraConsumoEletrico$calculadoraConsumoEletrico.coverage" NAME="calculadoraConsumoEletrico Coverage Results" MODIFIED="1725630866555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/calculadoraConsumoEletrico$calculadoraConsumoEletrico.coverage" NAME="calculadoraConsumoEletrico Coverage Results" MODIFIED="1726072850305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

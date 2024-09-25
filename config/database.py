@@ -1,7 +1,16 @@
-from peewee import SqliteDatabase
+from peewee import SqliteDatabase, MySQLDatabase
 
+# DATABASE_PATH = 'database.bd'
 database = SqliteDatabase('database.db')
 
+# database = MySQLDatabase(
+#     database='calculadora-db',
+#     user ='root',
+#     password ='root',
+#     host ='localhost',
+#     port=3306,
+#
+# )
 
 def startup_db():
     database.connect()

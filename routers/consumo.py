@@ -4,16 +4,10 @@ from models.dependencia import DependenciaDB
 from models.unidade_consumidora import UnidadeConsumidoraDB
 from models.bandeira import BandeiraDB
 from schemas.consumo import ConsumoRead
-from services.consumo import calcular_consumo
+from services.consumo import calcular_consumo, aplicar_tarifa  # Importando as funções
 
 router = APIRouter(prefix='/consumos', tags=['Consumos'])
 
-def aplicar_tarifa(consumo_diario, consumo_mensal, consumo_anual, tarifa):
-    return (
-        consumo_diario * tarifa,
-        consumo_mensal * tarifa,
-        consumo_anual * tarifa
-    )
 
 @router.get('/unidade/{unidade_id}', response_model=ConsumoRead)
 def calcular_consumo_por_unidade(unidade_id: int, bandeira_id: int):
